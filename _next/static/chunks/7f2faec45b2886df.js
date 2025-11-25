@@ -1,0 +1,5 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,7811,e=>{e.v({awake:"MoowoongGame-module__-J7I9W__awake",container:"MoowoongGame-module__-J7I9W__container",counter:"MoowoongGame-module__-J7I9W__counter",image:"MoowoongGame-module__-J7I9W__image",shake:"MoowoongGame-module__-J7I9W__shake",shaking:"MoowoongGame-module__-J7I9W__shaking",title:"MoowoongGame-module__-J7I9W__title"})},49855,e=>{"use strict";var o=e.i(43476),a=e.i(71645),t=e.i(7811);function l(){let[e,l]=(0,a.useState)(0),[u,n]=(0,a.useState)(!1),s=e>=10;return(0,o.jsxs)("div",{className:t.default.container,children:[(0,o.jsx)("img",{src:s?"wakeup_muu.webp":"sleep_muu.png",alt:s?"깨어난 무웅이":"잠자는 무웅이",onClick:()=>{s||(l(e=>e+1),n(!0),setTimeout(()=>{n(!1)},400))},className:`
+          ${t.default.image} 
+          ${u?t.default.shaking:""} 
+          ${s?t.default.awake:""}
+        `}),(0,o.jsx)("h1",{className:t.default.title,style:{color:s?"#FF5733":"#333"},children:s?"무웅이 일어났다!":"무웅을 깨우자!!"}),(0,o.jsx)("p",{className:t.default.counter,children:s?"성공!":`클릭 횟수: ${e} / 10`})]})}e.s(["default",()=>l])}]);
